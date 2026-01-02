@@ -1,81 +1,78 @@
-// primitive datatypes
+// primitive data types
 
-//  integer
+// number
 
-// let a = -23.67
-
+// let a = 34.56
 // console.log(typeof a)
 
-// string 
+// string
 
-// let str = "hello"
-// console.log( typeof str)
+// let str  = "hello"
+// console.log(typeof str)
 
-// boolean
+// Boolean
 
-// let isOn = false
+// let ison = false
 
-// console.log( typeof isOn)
-
-// null
-
-// let abc = null
-
-// console.log(abc)
+// console.log( typeof ison)
 
 // undefine
+// let b 
 
-// let abc  
+// console.log(b)
 
-// console.log( typeof abc)
+
+// // null
+// let a = null
+// console.log(a)
 
 // bigint
 
-// let a = 2n
+// let num = 2n
 
-// console.log( typeof a)
+// console.log(typeof num)
 
+// Symbol
 
-// symbole
+// let b = Symbol("id")
 
-// let a = Symbol("id")
+// let c = Symbol("id")
 
-// let b  = Symbol("id")
+// console.log(b == c)
 
-// console.log(a==b)
+// non primitive / referance data types
 
+// Array 
 
-// non primitive / referance
+// let arr = ["abc", 132 ,true, "ssds" ,{name :"abc"} ]
 
+// // console.log(arr[0])
 
-// Array
+// console.log(arr.length)
 
-// let arr = ['aditya' , 24 , true , "abc"]
+// let str = "wexfcghvhvfehv"
 
-// console.log(arr[2])
+// console.log(str.length)
 
-// object
-
-// let data = {
-//     name : "xyz",
-//     age: 22,
-//     rollno : 34
-// }
-
-// console.log(data.name)
-// console.log(data.age)
-// console.log(data.rollno)
 
 // function
 
-// function add(){
+// function greet(){
 
-//     let a = 22
-
-//     let b = 44
-
-//     console.log(a + b)
-
+//     console.log("hello")
 // }
 
-// add()
+// // greet()
+
+// // Object
+
+// let data ={
+//     name :"abc",
+//     age: 34,
+//     marks:[23, 45,67,89],
+//     rollno:23
+// }
+
+
+// console.log(data.marks[3])
+

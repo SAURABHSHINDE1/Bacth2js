@@ -1,24 +1,44 @@
-// var
-// var a  = "xyz"
+// var let const
+
+
+// // var
+
+
+// var a = 45
+
 // console.log(a)
+
+// // a =56
+
+// // console.log(a)
+// var a = 45
+
+// function greet(){
     
-// var b = "aditya"
+//     console.log(a)
+// }
 
-// console.log(b)
+// console.log(a)
 
-//  b = "prajwal"
 
-// console.log(b)
 
-// let , 
+// let 
 
-// let a = "abc"
+// let abc  = 47
 
-//  a= "xyz"
+// console.log(abc)
 
-//  console.log(a)
+//  abc  = 66
 
-// const a = "abc"
+// console.log(abc)
 
+
+// const 
+
+// const a = 56
+
+// console.log(a)
+
+// a = 45
 
 // console.log(a)

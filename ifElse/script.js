@@ -137,3 +137,102 @@
 //         console.log(`The reminder of a and b is : ${a%b}`)
 //         break;
 // }
+
+
+// if else
+    
+    // let age = 14
+
+    // if(age >=18){
+    //     console.log("you can vote")
+    // }
+    // else{
+    //         console.log("you cant't vote")
+    // }
+
+    // tarnary
+
+    // let age  = 17
+ 
+    // age >=18 ? console.log("you can vote") : console.log("you can't vote")
+
+    // if(condtion){
+
+    // }
+    // else if(consdtion2){
+
+    // }
+    // else if(condtion3){
+
+    // }
+    // else if(condtion4){
+
+    // }
+    // else{
+        
+    // }
+
+    // if else ladder
+
+    // let marks = 45
+
+    // if(marks >90){
+
+    //     console.log("You got A+ grade")
+
+    // }
+    // else if(marks > 70){
+
+    //     console.log("You got A grade")
+
+    // }
+    // else if(marks > 50){
+
+    //     console.log("You got B grade")
+
+    // }
+    // else if(marks > 35){
+    //     console.log("You got c grade")
+    // }
+    // else{
+    //     console.log("tu fail zala")
+    // }
+
+    let a = 56
+
+    let b = 34
+
+    let operator = 'vef'
+
+    switch(operator){
+
+        case '+' : 
+            console.log(`The Addition of a and b is : ${a+b}`)
+            break
+        
+        case '-':
+            console.log(`The Substraction of a and b is : ${a-b}`)
+            break
+
+        case '*' :
+            console.log(`The Multiplication of a and b is : ${a*b}`)
+            break
+
+        case '/' :
+            console.log(`The Devision of a and b is : ${a/b}`)
+            break
+
+        case '%' :
+            console.log(`The Reminder of a and b is : ${a%b}`)
+            break
+
+        default :
+            console.log("Invalid input")
+
+    }
+
+
+   
+    // console.log("24" + 34)
+
+    // console.log(`the additon is :- ${24+34}`)
