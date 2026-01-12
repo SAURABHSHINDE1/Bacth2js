@@ -58,3 +58,31 @@
 // box[i].style.borderRadius = "30px"
 
 // }
+
+
+
+// let Name = document.getElementById("name")
+//  Name.textContent = "Name : vivek ugle"
+
+// let std = document.querySelector(".std")
+// std.textContent = "class :TY BCS"
+
+let data = {
+    name:"abc",
+    class:"BCS",
+    address:"Satara",
+    bg:"B+"
+}
+
+ let sname = document.getElementById("name")
+ sname.textContent = `Student Name :-${data.name}`
+
+
+ let std = document.querySelector(".std")
+ std.textContent = `Class :- ${data.class}`
+
+ let address = document.querySelector("#address")
+ address.innerText = `Address:-${data.address}`
+
+ let bg = document.querySelector(".bg")
+ bg.textContent = `Blood Group:- ${data.bg}`
