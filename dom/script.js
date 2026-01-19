@@ -1,88 +1,62 @@
+// let h1 = document.getElementById("heading")
+// console.log(h1)
 
+// h1.textContent = "Welcome to my web page "
 
-// let heading = document.getElementById("test")
+// h1.innerText = "welcome to web page"
 
-// heading.style.color = 'red'
-// heading.style.fontSize = "100px"
+// h1.innerHTML = "<h1> welcome </h1>"
 
-// console.log(heading)
+// h1.style.color = "teal"
+// h1.style.fontSize = "100px"
 
-// heading.textContent = "hello DreamsGuider"
+// let card = document.querySelector("div")
 
-// heading.innerText = "hello DreamsGuider"
+// console.log(card)
 
-// heading.innerHTML = "<p> hello DreamsGuider </p>"
+// let card = document.getElementsByClassName("card")
 
+// for(let i =0 ; i < card.length; i++){
 
-// let image = document.getElementById("img")
-// console.log(image)
-
-// let div  = document.getElementById("text")
-// console.log(div)
-
-// div.style.height ="200px"
-// div.style.width ="200px"
-// div.style.backgroundColor = "orange"
-
-
-// QuerySelector
-
-// let heading = document.querySelector("#test")
-
-// console.log(heading)
-
-// let box = document.querySelector(".box")
-// console.log(box)
-
-// let box = document.getElementsByTagName("div")
-// console.log(box)
-
-// let box = document.getElementsByClassName("box")
-// console.log(box)
-
-// let box = document.querySelectorAll(".box")
-// console.log(box)
-
-
-
-// box[1].style.backgroundColor ="red"
-// box[2].style.backgroundColor ="red"
-// box[3].style.backgroundColor ="red"
-// box[4].style.backgroundColor ="red"
-// box[5].style.backgroundColor ="red"
-// box[6].style.backgroundColor ="red"
-
-// for(let i =0 ; i < box.length ;i++ ){
-
-// box[i].style.backgroundColor ="red"
-// box[i].style.borderRadius = "30px"
+//     card[i].style.backgroundColor = "teal"
+//     card[i].style.borderRadius = "20px"
 
 // }
 
 
+// let divTags = document.getElementsByTagName("h1")
 
-// let Name = document.getElementById("name")
-//  Name.textContent = "Name : vivek ugle"
+// console.log(divTags)
 
-// let std = document.querySelector(".std")
-// std.textContent = "class :TY BCS"
+// let divCards = document.querySelectorAll("#card")
 
-let data = {
-    name:"abc",
-    class:"BCS",
-    address:"Satara",
-    bg:"B+"
-}
+// console.log(divCards)
 
- let sname = document.getElementById("name")
- sname.textContent = `Student Name :-${data.name}`
+// let box = document.getElementsByClassName("box") 
+
+// console.log(box)
+
+// box[0].style.backgroundColor = "red"
+// box[1].style.backgroundColor = "orange"
+// box[2].style.backgroundColor = "green"
+// box[3].style.backgroundColor = "blue"
+// box[4].style.backgroundColor = "teal"
 
 
- let std = document.querySelector(".std")
- std.textContent = `Class :- ${data.class}`
+// let h1 = document.createElement("h1")
+// h1.textContent = "hello "
+// console.log(h1)
 
- let address = document.querySelector("#address")
- address.innerText = `Address:-${data.address}`
+// let img = document.createElement("img")
+// img.src="https://picsum.photos/200/300"
+// console.log(img)
 
- let bg = document.querySelector(".bg")
- bg.textContent = `Blood Group:- ${data.bg}`
+// let div = document.createElement("div")
+// console.log(div)
+
+// let headingDiv = document.querySelector(".heading")
+
+// headingDiv.appendChild(h1)
+// headingDiv.appendChild(img)
+// headingDiv.appendChild(div)
+
