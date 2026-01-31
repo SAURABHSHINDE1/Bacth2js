@@ -33,3 +33,37 @@
 // }
 
 // box.addEventListener("click" , ElementStyle)
+
+
+let box = document.querySelector(".box")
+
+// box.addEventListener('click' , (event)=>{
+
+//     console.log(event)
+// })
+
+// box.addEventListener('dblclick' , (e)=>{
+//     alert("Element  is doubble clicked")
+//     console.log(e)
+// })
+
+// box.addEventListener("mouseenter" , ()=>{
+//     box.style.borderRadius = "20px"
+// })
+
+// box.addEventListener("mouseleave" , ()=>{
+//     box.style.backgroundColor = "teal"
+// })
+
+// box.addEventListener("mousemove", ()=>{
+//     console.log("hello")
+// })
+
+
+let icon = document.querySelector(".ri-menu-2-line")
+let card = document.querySelector(".card")
+
+
+icon.addEventListener("click" , ()=>{
+    card.classList.toggle("open")
+})
