@@ -60,10 +60,41 @@ let box = document.querySelector(".box")
 // })
 
 
-let icon = document.querySelector(".ri-menu-2-line")
-let card = document.querySelector(".card")
+// let icon = document.querySelector(".ri-menu-2-line")
+// let card = document.querySelector(".card")
 
 
-icon.addEventListener("click" , ()=>{
-    card.classList.toggle("open")
-})
+// icon.addEventListener("click" , ()=>{
+//     card.classList.toggle("open")
+// })
+
+
+// let input = document.querySelector("#input")
+
+// input.addEventListener('keydown' , (e)=>{
+
+//     console.log(e.key)
+
+//     if(e.key == "Enter"){
+//         window.location.href="https://www.youtube.com/"
+//     }
+
+// })
+
+let formData = document.querySelector("#formData")
+
+formData.addEventListener("submit" , (e)=>{
+    e.preventDefault()
+     alert("from is submmited")
+
+    let name = document.querySelector("#username").value
+
+    let email = document.querySelector("#email").value
+
+   let data = {
+    name,
+    email
+   }
+
+   console.log(data)
+})  
