@@ -35,7 +35,7 @@
 // box.addEventListener("click" , ElementStyle)
 
 
-let box = document.querySelector(".box")
+// let box = document.querySelector(".box")
 
 // box.addEventListener('click' , (event)=>{
 
@@ -81,20 +81,60 @@ let box = document.querySelector(".box")
 
 // })
 
-let formData = document.querySelector("#formData")
+// let formData = document.querySelector("#formData")
 
-formData.addEventListener("submit" , (e)=>{
-    e.preventDefault()
-     alert("from is submmited")
+// formData.addEventListener("submit" , (e)=>{
+//     e.preventDefault()
+//      alert("from is submmited")
 
-    let name = document.querySelector("#username").value
+//     let name = document.querySelector("#username").value
 
-    let email = document.querySelector("#email").value
+//     let email = document.querySelector("#email").value
 
-   let data = {
-    name,
-    email
-   }
+//    let data = {
+//     name,
+//     email
+//    }
 
-   console.log(data)
-})  
+//    console.log(data)
+// })  
+
+
+// let username = document.querySelector("#username")
+
+// username.addEventListener("focus", (e)=>{
+  
+//     console.log("you clicked on name field")
+// })
+
+
+// username.addEventListener("blur" , ()=>{
+//     console.log("you lose the focus on name field")
+// })
+
+
+// let h2 = document.querySelector("h2")
+
+// let parent = h2.parentNode
+// console.log(parent)
+
+// let box = document.querySelector(".box")
+
+// let childs = box.childNodes
+
+// console.log(childs)
+
+// let firstChild = box.firstElementChild
+// console.log(firstChild)
+
+// let LastChild = box.lastElementChild
+// console.log(LastChild)
+
+
+let ptag = document.querySelector("p")
+
+// let  preiviousElem = ptag.previousElementSibling
+// console.log(preiviousElem)
+
+let  naxtElem = ptag.nextElementSibling
+console.log(naxtElem.textContent)
