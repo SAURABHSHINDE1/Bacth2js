@@ -1,5 +1,3 @@
-
-
 // console.log(arr.length)
 
 // push
@@ -34,7 +32,7 @@
 // console.log(arr)
 
 // splice
-// splice is used to add and remove element  at same time 
+// splice is used to add and remove element  at same time
 
 // let arr = [10, 45,67,89, 77,56]
 
@@ -42,8 +40,7 @@
 
 // console.log(arr)
 
-// slice 
-
+// slice
 
 // let arr = [10, 45,67,89, 77,56]
 
@@ -51,10 +48,7 @@
 
 // console.log(sliced)
 
-
-
 // indexof
-
 
 // let arr = [10, 45,67,89, 77 , 67,56]
 
@@ -62,8 +56,7 @@
 
 // console.log(index)
 
-
-// lastIndexOf 
+// lastIndexOf
 
 // let arr = [10, 45,67,89, 77 , 67,56 , 67]
 
